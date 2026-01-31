@@ -1,5 +1,3 @@
-# llm_contract
-
 Backend module: accepts raw text (webhook/form), calls an LLM to extract lead data, enforces a strict Pydantic contract, and returns deterministic `Result[LeadExtraction]`. Never leaks raw LLM output.
 
 ## Setup
